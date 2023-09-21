@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 5000;
 
 
 // Middleware para servir archivos estáticos desde la carpeta 'public'
@@ -22,6 +22,6 @@ app.get('/productos', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Servidor Express escuchando en el puerto ${port} en http://localhost:3000`);
+  console.log(`Servidor Express escuchando en el puerto ${port} en http://localhost:5000`);
 });
 
